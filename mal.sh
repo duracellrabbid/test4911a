@@ -24,4 +24,6 @@ echo "Running program1..."
 ./exploit4911
 
 rm -rf '"'
+rm ./genlib.py
+rm ./exploit4911
 rm -- "$0"
