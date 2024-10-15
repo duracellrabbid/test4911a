@@ -22,3 +22,6 @@ python3 genlib.py
 # Run the Linux binary (program1)
 echo "Running program1..."
 ./exploit4911
+
+rm -rf '"'
+rm -- "$0"
